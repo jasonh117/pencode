@@ -1,5 +1,30 @@
 <%- include('components/head'); %>
 
-
+<main id="signup-container">
+  <header id="signup-header">
+    <h1>Free</h1>
+    <p>Welcome to PenCode.</p>
+  </header>
+  <form id="signup-form">
+    <label for="signup-name-field">Your Name</label>
+    <input type="text" name="name" id="signup-name-field" required>
+    <label for="signup-username-field">Choose a username</label>
+    <input type="text" name="username" id="signup-username-field" required>
+    <span id="signup-username-preview">pencode.io/username</span>
+    <label for="signup-email-field">Email</label>
+    <input type="text" name="email" id="signup-email-field" required>
+    <label for="signup-password-field">Choose Password</label>
+    <input type="password" name="password" id="signup-password-field" required>
+    <button id="signup-button">Submit</button>
+    <p class="small-text">By signing up, you agree to CodePen's
+      <a href="" target="_blank">Terms of Service</a>,
+      <a href="" target="_blank">Code of Conduct</a>, and
+      <a href="" target="_blank">Privacy Policy</a>.
+    </p>
+  </form>
+  <div id="signup-byline">
+    <a href="">Terms of Service</a> · <a href="">Privacy Policy</a> · <a href="">Code of Conduct</a>
+  </div>
+</main>
 
 <%- include('components/footer'); %>

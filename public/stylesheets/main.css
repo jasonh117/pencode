@@ -18,6 +18,10 @@ label[for], input[type='checkbox'], input[type='radio'] {
   cursor: pointer;
 }
 
+input {
+  outline: 0;
+}
+
 input:focus {
   border-color: #717790;
   background: #fff;

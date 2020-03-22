@@ -37,7 +37,7 @@
   border-radius: 3px;
 }
 
-#login-form > button {
+#login-button {
   border-radius: 4px;
   border: 3px solid transparent;
   background: #47cf73;
@@ -46,7 +46,7 @@
   margin-bottom: 1.3em;
 }
 
-#login-form > button:hover {
+#login-button:hover {
   background: #2fb45a;
 }
 
