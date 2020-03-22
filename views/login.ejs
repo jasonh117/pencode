@@ -1,0 +1,19 @@
+<%- include('components/head'); %>
+
+<main id="login-container">
+  <img class="logo" src="/images/pencode.svg" />
+  <h1>Log In!</h1>
+  <form id="login-form">
+    <label for="login-email-field">Username or Email</label>
+    <input type="text" name="email" id="login-email-field" required>
+    <label for="login-password-field">Password</label>
+    <input type="password" name="password" id="login-password-field" required>
+    <button id="log-in-button">Log In</button>
+    <a href="" id="forgot-password-link" class="forgot-password-link">Forgot Password?</a>
+  </form>
+  <div id="signup-callout">
+    Need an account? <a href="/signup">Sign up now!</a>
+  </div>
+</main>
+
+<%- include('components/footer'); %>
