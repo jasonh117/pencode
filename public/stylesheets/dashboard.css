@@ -1,0 +1,65 @@
+.body-dashboard {
+  margin-left: 12em;
+  background-color: rgb(19, 20, 23);
+  color: white;
+}
+
+#dashboard-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#dashboard-title {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+}
+
+#dashboard-tabs {
+  border-bottom: 4px solid #0ebeff;
+}
+
+#dashboard-tabs-list {
+  display: flex;
+  list-style: none;
+}
+
+.dashboard-tab-item {
+  font-weight: bold;
+}
+
+.dashboard-controls {
+  background-color: rgb(44, 48, 58);
+  display: flex;
+  padding: 0.5em;
+  margin-bottom: 1px;
+}
+
+.dashboard-controls input {
+  background-color: rgb(30, 31, 38);
+  border: none;
+  margin: 3px;
+  color: white;
+  border-radius: 4px;
+}
+
+#dashboard-view-controls {
+  margin-bottom: 30px;
+}
+
+#dashboard-project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+}
+
+.dashboard-card {
+  background-color: rgb(31, 34, 41);
+  flex: 1;
+  min-width: 20em;
+  height: 15em;
+  border-radius: 1em;
+  margin: 1em;
+}

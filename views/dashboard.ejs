@@ -1,5 +1,38 @@
 <%- include('components/head'); %>
+<%- include('components/sidebar'); %>
+<body class="body-dashboard">
 
-
+<main id="dashboard-container">
+  <div id="dashboard-bar">
+    <h1 id="dashboard-title">DASHBOARD</h1>
+    <%- include('components/usermenu'); %>
+  </div>
+  <div id="dashboard-tabs">
+    <ul id="dashboard-tabs-list">
+      <li class="dashboard-tab-item">Pens</li>
+    </ul>
+  </div>
+  <div id="dashboard-search-controls" class="dashboard-controls">
+    <input />
+    <input />
+    <input />
+  </div>
+  <div id="dashboard-view-controls" class="dashboard-controls">
+    <input />
+    <input />
+    <input />
+  </div>
+  <div id="dashboard-project-list">
+    <div class="dashboard-card"></div>
+    <div class="dashboard-card"></div>
+    <div class="dashboard-card"></div>
+    <div class="dashboard-card"></div>
+    <div class="dashboard-card"></div>
+    <div class="dashboard-card"></div>
+    <div class="dashboard-card"></div>
+    <div class="dashboard-card"></div>
+    <div class="dashboard-card"></div>
+  </div>
+</main>
 
 <%- include('components/footer'); %>
