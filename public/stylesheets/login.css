@@ -35,6 +35,12 @@
   background: #d5d7de;
   border: 3px solid #d5d7de;
   border-radius: 3px;
+  outline: 0;
+}
+
+#login-form > input:focus {
+  border-color: #717790;
+  background: #fff;
 }
 
 #login-button {
